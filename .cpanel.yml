@@ -1,0 +1,5 @@
+---
+deployment:
+      tasks:
+        - export DEPLOYPATH=/home/habanabell/public_html/staging.habanabell.com
+        - /bin/cp -r * $DEPLOYPATH   
